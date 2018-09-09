@@ -18,11 +18,6 @@ import io.grpc.NameResolver;
 import io.grpc.Status;
 import io.grpc.internal.SharedResourceHolder;
 
-/**
- * User: Michael
- * Email: yidongnan@gmail.com
- * Date: 5/17/16
- */
 public class AddressChannelNameResolver extends NameResolver {
 	private static final Logger log = LoggerFactory.getLogger(AddressChannelNameResolver.class);
     private final String name;

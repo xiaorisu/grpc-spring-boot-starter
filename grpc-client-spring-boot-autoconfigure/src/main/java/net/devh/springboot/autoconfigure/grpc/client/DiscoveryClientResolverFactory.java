@@ -9,11 +9,6 @@ import org.springframework.cloud.client.discovery.DiscoveryClient;
 import javax.annotation.Nullable;
 import java.net.URI;
 
-/**
- * User: Michael
- * Email: yidongnan@gmail.com
- * Date: 5/17/16
- */
 public class DiscoveryClientResolverFactory extends NameResolverProvider {
     private final DiscoveryClient client;
     private DiscoveryClientChannelFactory discoveryClientChannelFactory;

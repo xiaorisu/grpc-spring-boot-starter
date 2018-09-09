@@ -24,11 +24,6 @@ import io.grpc.Status;
 import io.grpc.internal.SharedResourceHolder;
 import lombok.extern.slf4j.Slf4j;
 
-/**
- * User: Michael
- * Email: yidongnan@gmail.com
- * Date: 5/17/16
- */
 public class DiscoveryClientNameResolver extends NameResolver {
 	private static final Logger log = LoggerFactory.getLogger(DiscoveryClientNameResolver.class);
     private final String name;
