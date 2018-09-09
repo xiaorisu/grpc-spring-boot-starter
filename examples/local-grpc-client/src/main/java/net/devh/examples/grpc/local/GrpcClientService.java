@@ -9,11 +9,6 @@ import org.springframework.stereotype.Service;
 
 import io.grpc.Channel;
 
-/**
- * User: Michael
- * Email: yidongnan@gmail.com
- * Date: 2016/11/8
- */
 @Service
 public class GrpcClientService {
 
